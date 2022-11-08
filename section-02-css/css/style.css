@@ -1,3 +1,8 @@
-#titol {
-    text-decoration: limegreen;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+.tipo-letra {
+    font-family: 'Nunito', sans-serif;
+    font-size: 100px;
 }
