@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Open+Sans:ital,wght@0,500;1,400&display=swap');
+
+*{
+   padding: 0%;
+   margin: auto;
+}
+
+body{
+    font-family: "open sans", sans-serif;
+}
+
+#container {
+    text-align: center;
+}
+
+
