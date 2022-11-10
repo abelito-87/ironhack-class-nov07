@@ -6,3 +6,8 @@ Green: #00B172
 White: #FFF
 
 */
+
+#box1 {
+    position: fixed;
+    position: left;
+}
