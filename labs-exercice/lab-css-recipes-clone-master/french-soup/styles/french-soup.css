@@ -10,69 +10,102 @@ body{
     font-size: 1rem;
 }
 
-.apple-img {
-
-  height: 900px ;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  left: 300px;
-  /*he conseguido "centrar" la imagen y me ha desapareciodo el h1 apple pie*/
+#father-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 0 0 20px;
 }
 
-#container h1 {
-    font-size: 4rem;
-    text-align: center;
+#container {
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.soup-img {
+    width: 100%;
+    height: auto;  
+    box-sizing: border-box; 
+
+}
+
+#father-container #container h1 {
+    
+    font-size: 2.5rem;
     position: relative;
-    top: 450px;
-    color: #fff;
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: #fff;    
     
 }
 
-#container p {
-    padding: 10px 50px;
-    text-align: justify;
+#father-container #container p {
+    text-align: center;
+    padding: 20px 0 20px 100px;
+
+}
+
+#ingredients {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .recipe-info {
-    position: relative;
-    left: 450px;
-    width: 50%;
+    padding: 10px 10px;
+    height: 80px;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
 }
 
 #ingredients h4 {
+    padding: 10px 0 10px 40px;
     font-size: 1.5rem;
-    padding: 10px 0 10px 0;
-    position: relative;
-    left: 100px;
 }
 
-#ingredients ul {
-    padding: 10px 0 10px 0;
-    position: relative;
-    left: 100px;
+#directions {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 0 60px 0;
 }
 
 .cooking-info {
-    position: relative;
-    left: 450px;
-    width: 50%;
+    padding: 10px 10px;
+    height: 100px;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
 }
 
 #directions h4 {
+    padding: 10px 0 10px 40px;
     font-size: 1.5rem;
-    padding: 10px 0 10px 0;
-    position: relative;
-    left: 100px;
-}
 
-#directions ol {
-    padding: 10px 0 10px 0;
-    position: relative;
-    left: 100px;
 }
 
 #directions ol li {
-    text-decoration: none;
+    text-align:justify;
+}
+
+@media screen and (max-width: 800px) {
+   #container {
+    width: 100%;
+   }
+   #ingredients {
+    width: 100%;
+   }
+   #directions {
+    width: 100%;
+   }
 }
