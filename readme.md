@@ -1,4 +1,4 @@
-<img src="./assets/imgs/banner.png" alt="Vue Conforcat Class">
+<img src="./banner_img.PNG" alt="Vue Conforcat Class">
 
 07 NOVEMBRE
 
