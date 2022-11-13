@@ -7,32 +7,45 @@ White: #FFF
 
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
 * {
-    font-size: 15px;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-}
-
-#box1 {
-   border: 1px solid #fff;
-   height: 30px;
-   margin-bottom: 10px;
-   min-width: 725;
-   padding-top: 10px;
-   width: 75%;
-}
-
-#image-logo {
-    width: 50%;
-    height: 75px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    padding: 10px auto;
+    margin: 10px auto;
     
 }
 
-#image-landing {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+#father-container{
+    display: flex;
 }
+
+.spotify-logo {
+    width: 300px;
+    height: 80px;
+    flex-wrap: wrap;
+    padding: 0 0 20px 10px;
+}
+
+.navegation {
+    /*position: fixed;*/
+    padding: 0 0 0 70%;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 1rem;    
+}
+
+
+.image-landing {
+    flex-direction: column;
+    width: 1200px;
+    height: 800px;
+    flex-wrap: wrap;
+    padding: 120px 0 0 0;
+}
+
+
+
 
 
