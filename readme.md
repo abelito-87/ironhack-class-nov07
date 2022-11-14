@@ -23,3 +23,7 @@ Avui hem estat veient més formes d'estilar webs, hem treballat el background im
 Hem estat treballant amb media query que serveix per modificar la nostra pàgina web segons el tipus de dispositiu amb què la fas anar. Seguidament, hem utilitzat flexbox que serveix per a modificar l'amplada, altura i posicionament dels elements de la nostra web. També hem vist les diferències entre elements en block o en línia. Els posicionaments i una molt petita introducció a JS
 
 CONTINUEM!
+
+14 NOVEMBRE
+
+Avui ens hem introduït a JS. Els temes que hem tocat han sigut tipus de dades primitives. També hem vist que és una "array", que són els "objects" . Hem après a declarar variables, els operadors lògics de tipus booleà i els condicionals.
