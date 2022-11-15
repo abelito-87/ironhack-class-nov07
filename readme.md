@@ -30,4 +30,4 @@ Avui ens hem introduït a JS. Els temes que hem tocat han sigut tipus de dades p
 
 15 NOVEMBRE
 
-Avui li hem vist els diferents tipus de loops que hi ha. Hem treballat amb funcionsi hem vist els mètodes que hi ha per les matrius.
+Avui hem vist els diferents tipus de loops que hi ha. Hem treballat amb funcions i hem vist els mètodes que hi ha per les matrius.
