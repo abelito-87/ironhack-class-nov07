@@ -27,3 +27,7 @@ CONTINUEM!
 14 NOVEMBRE
 
 Avui ens hem introduït a JS. Els temes que hem tocat han sigut tipus de dades primitives. També hem vist que és una "array", que són els "objects" . Hem après a declarar variables, els operadors lògics de tipus booleà i els condicionals.
+
+15 NOVEMBRE
+
+Avui li hem vist els diferents tipus de loops que hi ha. Hem treballat amb funcionsi hem vist els mètodes que hi ha per les matrius.
