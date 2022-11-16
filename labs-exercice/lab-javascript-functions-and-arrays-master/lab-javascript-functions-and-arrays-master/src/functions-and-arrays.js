@@ -11,9 +11,10 @@ function maxOfTwoNumbers(x, y) {
     };
   };
  
-console.log(maxOfTwoNumbers(5,5));
+console.log(maxOfTwoNumbers(6, 5));
 console.log("------------------");
-//aixo ho he escrit jo
+
+// EXERCICI ACABAT
 
 
 
@@ -21,13 +22,10 @@ console.log("------------------");
 // Iteration #2: Find longest word
 const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
 
-
 function findLongestWord() {
-  let str;
-  for (var i = 0; i < str.length; i++) {
-  }
-  console.log(str[i]);
-}
+  
+}                                                              
+
 
 
 
@@ -35,13 +33,36 @@ function findLongestWord() {
 // Iteration #3: Calculate the sum
 const numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 
-function sumNumbers() {}
+function sumNumbers(sumaArray) {
+  let suma = 0;
+  sumaArray.forEach(element => {
+    suma += element;
+  });
+  return suma;
+}
+console.log(sumNumbers(numbers));
+console.log("------------------");
 
-
+// EXERCICI ACABAT
 
 // Iteration #3.1 Bonus:
-function sum() {}
+function sum(arraySum) {
+  let result = 0;
 
+  arraySum.forEach(element => {
+    if(typeof element === "string") result += element.length;
+   
+    if(typeof element === "number") result += element;
+    
+    if(typeof element === "boolean" && element === true) result++;
+
+
+  });
+
+  if (arraySum.length == 0) result = 0;
+  return result;
+}
+// FALTA ACABAR!! 
 
 
 // Iteration #4: Calculate the average
