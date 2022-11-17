@@ -31,3 +31,7 @@ Avui ens hem introduït a JS. Els temes que hem tocat han sigut tipus de dades p
 15 NOVEMBRE
 
 Avui hem vist els diferents tipus de loops que hi ha. Hem treballat amb funcions i hem vist els mètodes que hi ha per les matrius.
+
+16 NOVEMBRE
+
+Avui dia 16, hem conegut que és el DOM. És com un arbre de "nodos"i cada un d'aquests "nodos" té les seves propietats i mètodes que poden ser manipulats amb js. Podem seleccionar elements i afegir estils, manipular atributs i recórrer elements, pare/fill. Podem accedir als elements utilitzant id, classes, tags.
