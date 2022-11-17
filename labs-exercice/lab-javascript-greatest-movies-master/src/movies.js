@@ -1,3 +1,4 @@
+
 const movies = require('./data');
 
 // Iteration 1: All directors? - Get the array of all directors.
@@ -25,3 +26,7 @@ function turnHoursToMinutes(moviesArray) {}
 
 // BONUS - Iteration 8: Best yearly score average - Best yearly score average
 function bestYearAvg(moviesArray) {}
+
+/*
+console.log("hola");
+console.log(getAllDirectors{movies});*/

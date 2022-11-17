@@ -2002,4 +2002,6 @@ const movies = [
   }
 ];
 
-module.exports = data;
+export {movies}
+
+
