@@ -22,8 +22,20 @@ console.log("------------------");
 // Iteration #2: Find longest word
 const words = ['mystery', 'brother', 'aviator', 'crocodile', 'pearl', 'orchard', 'crackpot'];
 
-function findLongestWord() {
-  
+function findLongestWord(arr) {
+  if(arr.length == 0){
+    return null;
+  }else{
+    let index, maxLength = 0;
+    for(let i = 0; i < arr.length; i++) {
+      let word = arr[i];
+      if(word.length > maxLength){
+        maxLength = word.length;
+        index= i;
+      }
+    }
+    return arr[index];
+  }
 }                                                              
 
 
@@ -49,14 +61,28 @@ console.log("------------------");
 function sum(arraySum) {
   let result = 0;
 
+  /*arraySum.forEach(element => {
+    if(typeof element === "string"){
+       result += element.length;
+    }else if(typeof element === "number"){
+       result += element;
+    }else if(typeof element === "boolean" && element === true){
+      result++;
+    }else{
+      throw "Tipo de dato invalido"
+    }
+  });*/
+
   arraySum.forEach(element => {
-    if(typeof element === "string") result += element.length;
-   
-    if(typeof element === "number") result += element;
-    
-    if(typeof element === "boolean" && element === true) result++;
-
-
+    if(typeof element === "string"){
+       result += element.length;
+    }
+    if(typeof element === "number"){
+       result += element;
+    }
+    if(typeof element === "boolean" && element === true){
+      result++;
+    }
   });
 
   if (arraySum.length == 0) result = 0;
