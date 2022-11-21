@@ -35,3 +35,11 @@ Avui hem vist els diferents tipus de loops que hi ha. Hem treballat amb funcions
 16 NOVEMBRE
 
 Avui dia 16, hem conegut que és el DOM. És com un arbre de "nodos"i cada un d'aquests "nodos" té les seves propietats i mètodes que poden ser manipulats amb js. Podem seleccionar elements i afegir estils, manipular atributs i recórrer elements, pare/fill. Podem accedir als elements utilitzant id, classes, tags.
+
+17 NOVEMBRE
+
+Hem estat aprenent diferents tipus de matrius. Mètodes per ordenar e invertir matrius, "mapejar" reduir i filtrar.
+
+18 NOVEMBRE
+
+Hem treballat amb funcions abançades (callbacks) hem vist que són les promeses, els asíncrones i els asíncrones en espera.
