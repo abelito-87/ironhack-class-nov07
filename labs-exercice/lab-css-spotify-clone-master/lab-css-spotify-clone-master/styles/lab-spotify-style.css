@@ -7,21 +7,6 @@ White: #FFF
 
 */
 
-/* APUNTES GRID
-grid da control sobre la estructura.
-alinear horizontal o vertical flexbox,
-alinear tanto horizontal como vertical, grid.
-
-display: grid
-grid-template-columns -->define columnas , puede dar %, longitud y fr.
-grid-template-rows -->define filas , puede dar %, longitud y fr.
-grid-template-areas y grid-area --> identificas elementos secundarios con nombre y luego organizas el grid.
-grid-column-gap --> permite definir espacio entre columnas
-grid-row-gap --> permite definir espacio entre filas
-grid-gap -->Una abreviatura que le permite definir tanto la columna como el espacio entre filas. Primero está el espacio entre filas y luego el espacio entre columnas. Por ejemplo: grid-gap: 15px 10px;
-justify-items--> alinea cuadricula en le eje de la fila. el falor se aplica a todos los elementos secundarios directos, por defecto stretch estirara los elementos para llenar toda la cuadricula(start,center,end..)
-align-items--> este alinea el contenido a lo largo del eje del bloque afectara a todos los elementos secundarios de la cuadricula
-place-content--> con este alineas cada celda, hijos directos, en una sola linea*/
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
 
