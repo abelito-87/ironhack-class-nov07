@@ -1,0 +1,104 @@
+
+#container {
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    max-width: 700px;
+    font-family: Arial;
+}
+
+.box-1 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #3838FF;
+}
+
+.box-2 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #1ecf94;
+}
+
+.box-3 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #a1e620;
+}
+
+.box-4 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #c11cc7;
+}
+
+.box-5 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #d11ba3;
+}
+
+.box-6 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #679925;
+}
+
+.box-7 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #a01414;
+}
+
+.box-8 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #9344ac;
+}
+
+.box-9 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #05791e;
+}
+
+.box-10 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #3badb1;
+}
+
+.box-11 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #9b278b;
+}
+
+.box-12 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #5f8db8;
+}
+.box:hover {
+    background-color: #00D1AE;
+    width: 200px;
+    height: 200px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function:linear;
+    transition-delay: 1s;
+}
+
+
