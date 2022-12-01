@@ -1,19 +1,26 @@
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
-import MyFirstComponentVue from "./components/vueBasics/MyFirstComponent.vue";
-import iteratingElementsVue from "./components/iteratingElements.vue";
-
+import MyBio from "./components/My-Bio-comps/NameComp.vue";
 </script>
 
 <template>
   <header>
+    <img
+      alt="Vue logo"
+      class="logo"
+      src="./assets/logo.svg"
+      width="125"
+      height="125"
+    />
+
     <div class="wrapper">
-      <HelloWorld msg="My name is Abel" />
+      <HelloWorld msg="Prop's Class" />
     </div>
   </header>
 
   <main>
-    <MyFirstComponentVue />
+    <MyBio name="Abel" />
+    <MyBio age="23" />
   </main>
 </template>
 

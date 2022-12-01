@@ -4,7 +4,7 @@
     
 </template>
 
-<script scoped>
+<script setup>
 
  import { reactive } from "vue";
   const datosVerdaderos = reactive();
