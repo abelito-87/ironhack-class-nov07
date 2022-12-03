@@ -68,18 +68,16 @@ function dramaMoviesScore(moviesArray) {
 function orderByYear(moviesArray) {
     let arrayOrder = [];
     moviesArray.forEach(element => {
-        arrayOrder.push(element.year); 
-    }); 
+        arrayOrder.push(element.year);
+        arrayOrder = moviesArray.sort((a, b) => a.year - b.year);
+     });
     return arrayOrder;
 }
 
-
-
-
-
-
 // Iteration 6: Alphabetic Order - Order by title and print the first 20 titles
-function orderAlphabetically(moviesArray) {}
+function orderAlphabetically(moviesArray) {
+    return (moviesArray.map((movie) => movie.title).sort().slice(0, 20));
+}
 
 // BONUS - Iteration 7: Time Format - Turn duration of the movies from hours to minutes
 function turnHoursToMinutes(moviesArray) {}

@@ -1,7 +1,8 @@
 <template>
   <div class="tweet">
+    <!--aquest src le posat jo-->
     <img
-      src="https://i.imgur.com/9yw1Fyw.jpg"
+      :src="props.tweet.user.image"
       class="profile"
       alt="profile"
     />
@@ -9,7 +10,8 @@
     <div class="body">
       <div class="top">
         <span class="user">
-          <span class="name">Ironhack</span>
+          <!--aquest bigoti le posat jo-->
+          <span class="name">{{props.tweet.user.image}}</span>
           <span class="handle">@ironhack</span>
         </span>
 
@@ -33,6 +35,14 @@
     <i class="fas fa-ellipsis-h"></i>
   </div>
 </template>
+
+<script setup>
+//aquesta prop le fet jo
+const props = defineProps({
+
+})
+
+</script>
 
 <style scoped>
 a {
