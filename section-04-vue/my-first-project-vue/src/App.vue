@@ -1,27 +1,14 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-import MyBio from "./components/My-Bio-comps/NameComp.vue";
+//import HelloWorld from "./components/HelloWorld.vue";
+//import MyBio from "./components/My-Bio-comps/NameComp.vue";
+//import Computed from "./components/Computed.vue"
+import ParentComp from "./components/CustomEvents/ParentComponent.vue"
+import ChildComp from "./components/CustomEvents/ChildComponent.vue"
 </script>
 
 <template>
-  <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="./assets/logo.svg"
-      width="125"
-      height="125"
-    />
-
-    <div class="wrapper">
-      <HelloWorld msg="Prop's Class" />
-    </div>
-  </header>
-
-  <main>
-    <MyBio name="Abel" />
-    <MyBio age="23" />
-  </main>
+ 
+  
 </template>
 
 <style scoped>
